@@ -1,8 +1,7 @@
 import streamlit as st
 import os
-import pymongo
 import motor.motor_asyncio
-from pymongo.errors import PyMongoError
+
 
 # Get the MongoDB connection string from an environment variable
 MONGODB_CONNECTION_STRING = os.environ.get("MONGODB_CONNECTION_STRING")
