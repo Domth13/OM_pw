@@ -11,7 +11,7 @@ Please use the following infos to create your username (use lowercase letters an
 1. First letter of the first name of your mother (or the most important female reference person in your childhood):\n
 2. First letter of the first name of your father (or the most important male reference person in your childhood):\n
 3. First letter of your birthplace:\n
-4. Birth month of your mother as number (or the most important female reference person in your childhood):\n
+4. Birth month of your mother as number (01-12) (or the most important female reference person in your childhood):\n
 5. Birth year of your father (in this format yyyy) (or the most important male reference person in your childhood):\n
 
 Example: hag061960
