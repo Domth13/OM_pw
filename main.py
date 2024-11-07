@@ -22,14 +22,14 @@ async def fetch_user_passwords():
     """Fetch all user passwords from MongoDB asynchronously."""
     try:
         client = AsyncIOMotorClient(MONGODB_CONNECTION_STRING)
-        db = client["owlMentor"]
+        db = client["owlMentor_24"]
         collection = db["user"]
 
         # Fetch user passwords from MongoDB
         cursor = collection.find()
         user_passwords = {}
         async for doc in cursor:
-            user_passwords[doc["name"]] = doc["pwd"]
+            user_passwords[doc["username"]] = doc["password"]
 
         return user_passwords
     except Exception as e:
